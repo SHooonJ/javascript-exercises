@@ -1,10 +1,7 @@
-function test(element){
-    return element.title;
-}
 
 const getTheTitles = function(books) {
-    let ans = books.map(test);
-    return ans;
+    return books.map(element => element.title);
+
 };
 
 // Do not edit below this line
